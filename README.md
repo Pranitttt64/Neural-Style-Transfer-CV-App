@@ -73,7 +73,7 @@ jupyter notebook "ST JP NB.ipynb"
 
 | Content | Style | Output |
 |---------|-------|--------|
-| ![Content](1.jpg) | ![Style](2.jpg) | ![Output](OUTPUT.png) |
+| ![Content](2.jpg) | ![Style](1.jpg) | ![Output](OUTPUT.png) |
 
 ---
 
