@@ -59,7 +59,7 @@ streamlit run ST APP.py
 ## 📸 Example Output
 | Content Image | Style Image | Output |
 |---------------|------------|--------|
-| ![content](1.jpg) | ![style](2.jpg) | ![output](OUTPUT.png) |
+| ![content](2.jpg) | ![style](1.jpg) | ![output](OUTPUT.png) |
 
 ---
 
