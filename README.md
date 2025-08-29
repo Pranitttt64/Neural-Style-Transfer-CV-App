@@ -1,109 +1,81 @@
-# 🎨 Neural Style Transfer CV App
+# 🖼️ Neural Style Transfer CV App
 
-A **Neural Style Transfer Web App** built with **PyTorch** and **Streamlit**.  
-Upload your own images and transform them into **artistic masterpieces** by blending content and style images together.
-
----
-
-## 🚀 Features
-- 🖼 Upload **content image** + **style image**
-- 🎨 Apply **Neural Style Transfer** using PyTorch
-- ⚡ Fast and interactive **Streamlit Web App**
-- 💾 Download the generated **output image**
-- 📓 Comes with a **Jupyter Notebook** for experimentation
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)](https://pytorch.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-brightgreen)](https://streamlit.io/)
+[![GitHub stars](https://img.shields.io/github/stars/Pranitttt64/Neural-Style-Transfer-CV-App?style=social)](https://github.com/Pranitttt64/Neural-Style-Transfer-CV-App/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Pranitttt64/Neural-Style-Transfer-CV-App?style=social)](https://github.com/Pranitttt64/Neural-Style-Transfer-CV-App/network/members)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pranit%20Saundankar-blue?logo=linkedin)](https://www.linkedin.com/in/pranit-saundankar/)
 
 ---
 
-## 📂 Project Structure
-```
-📁 Neural-Style-Transfer-CV-App
-│── 1.jpg                 # Sample content image
-│── 2.jpg                 # Sample style image
-│── OUTPUT.png            # Example output
-│── ST APP.py             # Streamlit Web App
-│── ST JP NB.ipynb        # Style Transfer Notebook
-│── ST JP NB 2.ipynb      # Extra Notebook
-│── README.md             # Project documentation
-```
+## 📌 Project Overview
+This is a **Neural Style Transfer Web App** built with **PyTorch** and **Streamlit**.  
+It allows users to upload an image and apply the artistic style of another image to generate beautiful artistic transformations.
 
 ---
 
-## ⚙️ Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/Pranitttt64/Neural-Style-Transfer-CV-App.git
-   cd Neural-Style-Transfer-CV-App
-   ```
-
-2. Create a virtual environment (recommended)
-   ```bash
-   python -m venv venv
-   source venv/bin/activate    # On Linux/Mac
-   venv\Scripts\activate       # On Windows
-   ```
-
-3. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
+## ⚡ Features
+- Upload your own **content** and **style** images.
+- Apply **Neural Style Transfer** with PyTorch.
+- View and download the **stylized output**.
+- Simple and interactive **Streamlit UI**.
 
 ---
 
-## ▶️ Usage
+## 🚀 How to Run
 
-### Run Streamlit App
+### 1️⃣ Clone the repository
 ```bash
-streamlit run "ST APP.py"
+git clone https://github.com/Pranitttt64/Neural-Style-Transfer-CV-App.git
+cd Neural-Style-Transfer-CV-App
 ```
 
-- Upload **content** and **style** images
-- Wait for model to generate stylized output
-- Save the result 🎉
-
-### Run Notebook
-Open **Jupyter Notebook** and explore:
+### 2️⃣ Install dependencies
 ```bash
-jupyter notebook "ST JP NB.ipynb"
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the app
+```bash
+streamlit run ST APP.py
 ```
 
 ---
 
-## 📸 Example
-
-| Content | Style | Output |
-|---------|-------|--------|
-| ![Content](2.jpg) | ![Style](1.jpg) | ![Output](OUTPUT.png) |
+## 📂 Repository Structure
+```
+├── 1.jpg                 # Example content image
+├── 2.jpg                 # Example style image
+├── OUTPUT.png            # Generated output example
+├── ST APP.py             # Streamlit app code
+├── ST JP NB.ipynb        # Jupyter Notebook (Style Transfer)
+├── requirements.txt      # Required dependencies
+└── README.md             # Project documentation
+```
 
 ---
 
-## 🛠 Tech Stack
-- **Python**
+## 📸 Example Output
+| Content Image | Style Image | Output |
+|---------------|------------|--------|
+| ![content](1.jpg) | ![style](2.jpg) | ![output](OUTPUT.png) |
+
+---
+
+## 🛠️ Tech Stack
+- **Python 3.8+**
 - **PyTorch**
 - **Streamlit**
-- **Jupyter Notebook**
-- **OpenCV, PIL, NumPy**
+- **Computer Vision / Neural Style Transfer**
 
 ---
 
-## 🌟 Future Improvements
-- [ ] Add **multiple styles blending**
-- [ ] Deploy on **Streamlit Cloud / Hugging Face Spaces**
-- [ ] Add **GPU acceleration option**
+## 📬 Contact
+👤 **Pranit Saundankar**  
+🔗 [LinkedIn](https://www.linkedin.com/in/pranit-saundankar/)  
+📧 *Your email here (optional)*
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome!  
-If you’d like to suggest features, open an **issue**.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-**Pranit Saundankar**  
-🔗 [GitHub Profile](https://github.com/Pranitttt64)
+⭐ If you like this project, don't forget to **star the repo**!
