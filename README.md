@@ -72,7 +72,7 @@ streamlit run ST APP.py
 ---
 
 ## 📬 Contact
-👤 **[Pranit Saundankar](https://www.linkedin.com/in/pranit-saundankar-68532328b/)**  
+👤 **[GitHub]([https://www.linkedin.com/in/pranit-saundankar-68532328b/](https://github.com/Pranitttt64))**  
 🔗 [LinkedIn](https://www.linkedin.com/in/pranit-saundankar/)  
 📧 *psaundankar64@gmail.com*
 
